@@ -1,0 +1,7 @@
+Cambios Personales
+1. poner icono para ir a home
+2. poner navegacion a las 4 paginas
+3. posiblemente poner seccion de contacto en más paginas
+4. mirar links de contacto y escribe, adonde redirigiran
+5. poner footer en index
+6. poner proyectos

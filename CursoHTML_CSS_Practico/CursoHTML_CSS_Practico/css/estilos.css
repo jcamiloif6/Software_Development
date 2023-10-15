@@ -1,0 +1,286 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+body {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-header {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: right;
+    align-items: center;
+    gap: 15px;
+    margin: 16px 30px 0px;
+}
+
+
+.icon-apps {
+    font-size: 22px;
+}
+
+.gmail {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+.imagenes {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+.iniciar_sesion {
+    border: 1px solid #4285f4;
+    background: #4285f4;
+    color: white;
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 2px;
+    font-weight: bold;
+    width: auto;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.image_icon_apps {
+    width: 20px;
+    height: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.image_icon_apps2 {
+    width: 20px;
+    height: 20px;
+    padding-left: 20px;
+    color: black;
+}
+
+.main-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_letras {
+    align-self: center;
+    width: 400px;
+    cursor: pointer;
+}
+
+.section-search-bar {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+}
+
+.section_letras {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+}
+
+.div-search-bar {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 52px 480px 52px;
+    grid-template-rows: 46px;
+    margin-top: 25px;
+    position: relative;
+    grid-template-areas:
+        "div-glass textbox div-pic-search";
+}
+
+.input-search {
+
+    width: 100%;
+    border: none;
+    height: 100%;
+}
+
+.div-glass {
+    grid-area: div-glass;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #dfe1e5 solid 1px;
+    border-right: none;
+    color: #9AA0A6;
+    border-radius: 100px 0px 0px 100px;
+}
+
+.textbox {
+    grid-area: textbox;
+    border-top: #dfe1e5 solid 1px;
+    border-bottom: #dfe1e5 solid 1px;
+    border-left: none;
+    height: 100%;
+    position: relative;
+    border-right: none;
+    border-left: none;
+}
+
+.img-icon-search {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: white;
+}
+
+.img-pic-search {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: white;
+}
+
+.div-pic-search {
+    grid-area: div-pic-search;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #dfe1e5 solid 1px;
+    border-left: none;
+    color: #9AA0A6;
+    border-radius: 0px 100px 100px 0px;
+}
+
+.div-buttons {
+    display: flex;
+    padding-top: 18px;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-google-search {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button-lucky {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    margin: 11px 4px;
+    padding: 0 16px;
+}
+
+.div-ubicacion {
+    color: #4d5156;
+    display: inline-block;
+    line-height: 28px;
+    font-size: small;
+    text-align: center;
+}
+
+.footer {
+    background: #f2f2f2;
+    height: 75px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.div-colombia {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    position: relative;
+}
+
+.div-foot-menu {
+    background: #f2f2f2;
+    display: flex;
+    padding: 15px 20px;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-between;
+}
+
+.a-about-us {
+    color: #70757a;
+    padding: 15px;
+}
+
+.a-publicidad {
+    color: #70757a;
+    padding: 15px;
+}
+
+.a-negocios {
+    color: #70757a;
+    padding: 15px;
+}
+
+.a-busqueda {
+    color: #70757a;
+    padding: 15px;
+}
+
+.div-preconpre {
+    background: #f2f2f2;
+    display: flex;
+    padding: 15px 20px;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.a-privacidad {
+    color: #70757a;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.a-condiciones {
+    color: #70757a;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.a-preferencias {
+    color: #70757a;
+    padding: 15px;
+    text-decoration: none;
+}
